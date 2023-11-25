@@ -1,0 +1,380 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Header */
+
+header{
+    background-color: #E1EDE6;
+}
+nav{
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_right {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav_about {
+    color: #2C2D35;
+
+    transition: all .5s ease-out;
+}
+
+.nav_about:hover{
+    color: #376B44;
+}
+
+
+.nav_414_top {
+    text-align: center;
+    padding: 15px 0;
+}
+.nav_414_bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav_414_bot_menu {
+    display: none;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+}
+/* Hero */
+
+main{
+    background-color: #F4F6F5;
+    padding-bottom: 70px;
+}
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.hero_right {
+    padding-top: 25%;
+}
+.hero_right_title {
+    color: #2C2D35;
+    font-size: 60px;
+    line-height: 110%;
+    font-weight: 500;
+}
+.hero_right_title span{
+    color: #598D66;
+}
+.hero_right_overview {
+    margin: 20px 0 60px 0;
+    font-size: 16px;
+    color: #86928B;
+    font-weight: 500;
+    line-height: 150%;
+}
+.hero_right_link {
+    padding: 20px 60px;
+    border: 1px solid #598D66;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+
+    transition: all .5s ease-out;
+}
+
+.hero_right_link:hover{
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+
+/* Country */
+
+.country {
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country_h {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+}
+.country_cat {
+    display: flex;
+    align-items: center;
+    grid-gap: 32px;
+}
+.country_item {
+    padding: 10px 20px;
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    columns: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+
+    transition: all .5s ease-in-out;
+}
+.country_item:hover{
+    color: #F4F6F5;
+    background-color: #376B44;
+}
+.country_item_active{
+    color: #F4F6F5;
+    background-color: #376B44;
+}
+
+
+/* Galeria */
+
+.galeria{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.galeria_item {
+    justify-content: center;
+    padding: 20px;
+    background-color: #E1EDE6;
+    max-width: 350px;
+}
+.name_artist {
+    color: #86928B;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.name_pain {
+    color: #2C2D35;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.materials_pain {
+    margin-top: 8px;
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+}
+.price_pain {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #598D66;
+}
+.galeria_btn {
+    margin-top: 20px;
+    max-width: 310px;
+}
+.galeria_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    border: 1px solid #598D66;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+
+    transition: all .5s ease-out;
+}
+
+.galeria_link:hover{
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.galeria_alemania{
+    display: none;
+}
+
+.galeria_england{
+    display: none;
+}
+
+
+/* Collection */
+
+.collection {
+    margin-top: 70px;
+    background-image: url(../img/colleection.png);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F4F6F5;
+}
+.coll_title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.star_coll_title {
+    max-width: 420px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.coll_over {
+    margin-top: 20px;
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 150%;
+}
+.star_btn {
+    margin-top: 60px;
+}
+.star_link {
+    padding: 20px 60px;
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #EEDB6D;
+
+
+    transition: all .5s ease-out;
+}
+
+.star_link:hover{
+    background-color: #927d30;
+    color: #fff;
+}
+
+/* Team */
+
+.team {
+    margin-top: 70px;
+}
+.team_grid{
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    grid-gap: 30px;
+}
+.team_right {
+    padding-top: 20%;
+}
+.team_title {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+}
+.team_overview {
+    padding: 20px 0;
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.team_work {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #E1EDE6;
+    padding: 23px 0;
+}
+.footer_wrap {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.footer_left {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tel_footer {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}
+.tel_footer_name {
+    margin-top: 8px;
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer_center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+.footer_galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.footer_name_center {
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_about {
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
+    transition: all .5s ease-out;
+}
+.footer_about:hover{
+    color: #585f5b;
+}
+.footer_right {
+    padding-left: 20%;
+}
+.footer_icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer_right_over {
+    margin-top: 10px;
+    color: #86928B;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+}
+
+.footer_414{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.footer_414_item1{
+    grid-column: 1 / -1;
+}
+.footer_414_item2{
+    display: flex;
+    flex-direction: column;
+}
+.tel_footer_name{
+    font-size: 16px;
+}
+.tel_footer_name_4141{
+    font-size: 16px;
+}
+.footer_414_item6{
+    grid-column: 1 / -1;
+    width: 100%;
+}
